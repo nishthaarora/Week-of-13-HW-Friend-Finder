@@ -2,7 +2,7 @@
   "name": "friend_finder",
   "version": "1.0.0",
   "description": "an app using express and node",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
     "mysql": "^2.11.1",
     "express": "^4.14.0",
