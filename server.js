@@ -12,10 +12,6 @@ var app = express();
 // Sets an initial port.
 var PORT = process.env.PORT || 8080;
 
-if(process.env.JAWSDB_URL) {
-	var connection = process.env.JAWSDB_URL;
-}
-
 // BodyParser makes it easy for our server to interpret data sent to it.
 // The code below is pretty standard.
 app.use(bodyParser.json());

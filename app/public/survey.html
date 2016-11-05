@@ -139,7 +139,7 @@
 					}
 
 					if(validateForm(newUser) === true) {
-							$.post('http://localhost:8080/api/friends', newUser)
+							$.post('/api/friends', newUser)
 						.done(function(data) {
 							alert('profile added');
 							$('#friendName').text(data.name);
